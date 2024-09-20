@@ -1,10 +1,8 @@
 namespace BaiTapTuan01.Models
 {
     using System;
-    using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
-    using System.Data.Entity.Spatial;
 
     [Table("Category")]
     public partial class Category
@@ -26,5 +24,8 @@ namespace BaiTapTuan01.Models
 
         [Column(TypeName = "smalldatetime")]
         public DateTime? datebegin { get; set; }
+
+        [Column(TypeName = "smalldatetime")]
+        public DateTime? dateupdate { get; set; }
     }
 }

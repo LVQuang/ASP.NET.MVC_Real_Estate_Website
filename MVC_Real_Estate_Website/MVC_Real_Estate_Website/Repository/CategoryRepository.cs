@@ -1,9 +1,6 @@
 ﻿using BaiTapTuan01.Models;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
-using System.Web.UI.WebControls.Adapters;
 
 namespace BaiTapTuan01.Repository
 {
@@ -16,7 +13,9 @@ namespace BaiTapTuan01.Repository
         }
         public List<Category> GetAll()
         {
-            return myDB.Categories.Where(category => category.hide == false).OrderBy(category => category.order).ToList();
+            return myDB.Categories.Where(category => category.hide == false)
+                .OrderBy(category => category.order)
+                .ToList();
         }
 
     }

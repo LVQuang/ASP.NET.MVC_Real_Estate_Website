@@ -81,9 +81,9 @@ C:\Users\ql776\Documents\Study File\Code\ASPNET\TDTU\BaiTapTuan01\BaiTapTuan01\o
 C:\Users\ql776\Documents\Study File\Code\ASPNET\TDTU\BaiTapTuan01\BaiTapTuan01\obj\Debug\Real_Est.CB06E167.Up2Date
 C:\Users\ql776\Documents\Study File\Code\ASPNET\TDTU\BaiTapTuan01\BaiTapTuan01\obj\Debug\BaiTapTuan01.dll
 C:\Users\ql776\Documents\Study File\Code\ASPNET\TDTU\BaiTapTuan01\BaiTapTuan01\obj\Debug\BaiTapTuan01.pdb
-C:\Users\ql776\Documents\Study File\Code\ASPNET\TDTU\MVC_Real_Estate_Website\MVC_Real_Estate_Website\bin\BaiTapTuan01.dll.config
-C:\Users\ql776\Documents\Study File\Code\ASPNET\TDTU\MVC_Real_Estate_Website\MVC_Real_Estate_Website\bin\BaiTapTuan01.dll
-C:\Users\ql776\Documents\Study File\Code\ASPNET\TDTU\MVC_Real_Estate_Website\MVC_Real_Estate_Website\bin\BaiTapTuan01.pdb
+C:\Users\ql776\Documents\Study File\Code\ASPNET\TDTU\MVC_Real_Estate_Website\MVC_Real_Estate_Website\bin\Real_Estate_Website.dll.config
+C:\Users\ql776\Documents\Study File\Code\ASPNET\TDTU\MVC_Real_Estate_Website\MVC_Real_Estate_Website\bin\Real_Estate_Website.dll
+C:\Users\ql776\Documents\Study File\Code\ASPNET\TDTU\MVC_Real_Estate_Website\MVC_Real_Estate_Website\bin\Real_Estate_Website.pdb
 C:\Users\ql776\Documents\Study File\Code\ASPNET\TDTU\MVC_Real_Estate_Website\MVC_Real_Estate_Website\bin\roslyn\csc.exe
 C:\Users\ql776\Documents\Study File\Code\ASPNET\TDTU\MVC_Real_Estate_Website\MVC_Real_Estate_Website\bin\roslyn\csc.exe.config
 C:\Users\ql776\Documents\Study File\Code\ASPNET\TDTU\MVC_Real_Estate_Website\MVC_Real_Estate_Website\bin\roslyn\csc.rsp
@@ -162,5 +162,8 @@ C:\Users\ql776\Documents\Study File\Code\ASPNET\TDTU\MVC_Real_Estate_Website\MVC
 C:\Users\ql776\Documents\Study File\Code\ASPNET\TDTU\MVC_Real_Estate_Website\MVC_Real_Estate_Website\obj\Debug\Real_Estate_Website.csproj.AssemblyReference.cache
 C:\Users\ql776\Documents\Study File\Code\ASPNET\TDTU\MVC_Real_Estate_Website\MVC_Real_Estate_Website\obj\Debug\Real_Estate_Website.csproj.CoreCompileInputs.cache
 C:\Users\ql776\Documents\Study File\Code\ASPNET\TDTU\MVC_Real_Estate_Website\MVC_Real_Estate_Website\obj\Debug\Real_Est.CB06E167.Up2Date
-C:\Users\ql776\Documents\Study File\Code\ASPNET\TDTU\MVC_Real_Estate_Website\MVC_Real_Estate_Website\obj\Debug\BaiTapTuan01.dll
-C:\Users\ql776\Documents\Study File\Code\ASPNET\TDTU\MVC_Real_Estate_Website\MVC_Real_Estate_Website\obj\Debug\BaiTapTuan01.pdb
+C:\Users\ql776\Documents\Study File\Code\ASPNET\TDTU\MVC_Real_Estate_Website\MVC_Real_Estate_Website\obj\Debug\Real_Estate_Website.dll
+C:\Users\ql776\Documents\Study File\Code\ASPNET\TDTU\MVC_Real_Estate_Website\MVC_Real_Estate_Website\obj\Debug\Real_Estate_Website.pdb
+C:\Users\ql776\Documents\Study File\Code\ASPNET\TDTU\MVC_Real_Estate_Website\MVC_Real_Estate_Website\obj\Debug\Real_Estate_Website.Migrations.InitData.resources
+C:\Users\ql776\Documents\Study File\Code\ASPNET\TDTU\MVC_Real_Estate_Website\MVC_Real_Estate_Website\obj\Debug\Real_Estate_Website.csproj.GenerateResource.cache
+C:\Users\ql776\Documents\Study File\Code\ASPNET\TDTU\MVC_Real_Estate_Website\MVC_Real_Estate_Website\obj\Debug\Real_Estate_Website.Migrations.AddCategoryDateupdate.resources

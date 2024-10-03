@@ -35,21 +35,21 @@ $(document).ready(function(){
 	
 	
 	// 2. slick carousel
-
-	    $(".testimonial-carousel").slick({
-	        infinite: true,
-	        centerMode: true,
-	        autoplay:true,
-	        slidesToShow: 5,
-	        slidesToScroll: 3,
-	        autoplaySpeed:1500,
-	        // the magic
+	$(document).ready(function () {
+		$(".testimonial-carousel").slick({
+			infinite: true,
+			centerMode: true,
+			autoplay: true,
+			slidesToShow: 5,
+			slidesToScroll: 3,
+			autoplaySpeed: 1500,
+			// the magic
 			responsive: [
 				{
 
-					breakpoint:1440,
+					breakpoint: 1440,
 					settings: {
-					slidesToShow:3
+						slidesToShow: 3
 					}
 
 				},
@@ -57,31 +57,31 @@ $(document).ready(function(){
 
 					breakpoint: 1024,
 					settings: {
-					slidesToShow:2,
-					
-					}
+						slidesToShow: 2,
 
-				}, 
-				{
-
-					breakpoint:991,
-					settings: {
-					slidesToShow:2,
-					centerMode:false,
 					}
 
 				},
 				{
 
-					breakpoint:767,
+					breakpoint: 991,
 					settings: {
-					slidesToShow:1,
+						slidesToShow: 2,
+						centerMode: false,
+					}
+
+				},
+				{
+
+					breakpoint: 767,
+					settings: {
+						slidesToShow: 1,
 					}
 
 				}
 			]
-	    });
-
+		});
+	});
 
 
     // 3. welcome animation support

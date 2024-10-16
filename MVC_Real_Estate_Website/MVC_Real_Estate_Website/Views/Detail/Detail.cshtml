@@ -123,14 +123,6 @@
                                         frameborder="0" style="border:0" allowfullscreen=""></iframe>
                             </div>
                         </div>
-
-                        <div class="single-bg-white mb-0">
-                            <h3 class="post-content-title mb-4">Video</h3>
-                            <div class="post-content">
-                                <iframe src="https://www.youtube.com/embed/jqP3m3ElcxA" frameborder="0"
-                                        allowfullscreen=""></iframe>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div class="sidebar-side col-lg-4 col-md-12 col-sm-12 mt-lg-0 mt-5">
@@ -204,6 +196,7 @@
 
                     </aside>
                 </div>
+                @{ Html.RenderAction("getNewEstates", "Home");}
             </div>
         </div>
     </section>

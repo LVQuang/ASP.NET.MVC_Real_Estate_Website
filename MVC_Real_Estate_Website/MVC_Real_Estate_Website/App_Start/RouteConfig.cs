@@ -11,7 +11,7 @@ namespace BaiTapTuan01
 
             routes.MapRoute(
                 name: "Help Center",
-                url: "profile/helpcenter",
+                url: "profile/help-center",
                 defaults: new { controller = "Profile", action = "HelpCenter" }
             );
 

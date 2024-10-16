@@ -303,6 +303,8 @@
     <Content Include="Views\Profile\Profile.cshtml" />
     <Content Include="Views\Profile\Settings.cshtml" />
     <Content Include="Views\Profile\HelpCenter.cshtml" />
+    <Content Include="Views\Home\getNewEstates.cshtml" />
+    <Content Include="Views\Home\getPopularLocations.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

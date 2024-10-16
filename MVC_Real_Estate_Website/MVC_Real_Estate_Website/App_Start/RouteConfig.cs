@@ -10,6 +10,18 @@ namespace BaiTapTuan01
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+                name: "Sign Up",
+                url: "signup",
+                defaults: new { controller = "Signin", action = "SignUp" }
+            );
+
+            routes.MapRoute(
+                name: "Sign In",
+                url: "signin",
+                defaults: new { controller = "Signin", action = "Signin" }
+            );
+
+            routes.MapRoute(
                 name: "Contact",
                 url: "contact",
                 defaults: new { controller = "Contact", action = "Contact" }

@@ -7,6 +7,17 @@ namespace BaiTapTuan01
         // For more information on bundling, visit https://go.microsoft.com/fwlink/?LinkId=301862
         public static void RegisterBundles(BundleCollection bundles)
         {
+            // js home
+            bundles.Add(new ScriptBundle("~/bundles/js").Include(
+                "~/Scripts/js/jquery-3.3.1.min.js",
+                "~/Scripts/js/theme-change.js",
+                "~/Scripts/js/jquery.waypoints.min.js",
+                "~/Scripts/js/jquery.countup.js",
+                "~/Scripts/js/owl.carousel.js",
+                "~/Scripts/js/jquery.magnific-popup.min.js",
+                "~/Scripts/js/bootstrap.min.js",
+                "~/Scripts/js/script.js"));
+
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js"));
 

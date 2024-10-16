@@ -22,13 +22,7 @@
                     <a class="navbar-brand" href="/home">
                         <span class="fa fa-home"></span> Estate sale
                     </a>
-                    @*@Html.ActionLink("Home1", "Index", "Home")*@
-                    @*<span class="fa fa-home"></span> Estate sale*@
                 </h1>
-                <!-- if logo is image enable this
-                <a class="navbar-brand" href="#index.html">
-                    <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
-                </a> -->
                 <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
                         data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -98,6 +92,14 @@
                     </nav>
                 </div>
                 <!-- //toggle switch for light and dark theme -->
+
+                <div class="mr-0">
+                    <a href="/signin">Signin</a>
+                </div>
+                <div class="mr-0">
+                    <a href="/overview">Profile</a>
+                </div>
+
             </nav>
         </div>
     </header>
@@ -108,7 +110,7 @@
     </div>
 
     <!-- footers 20 -->
-    <section class="w3l-footers-20">
+    <footer class="w3l-footers-20">
         <div class="footers20">
             <div class="container">
                 <div class="footers20-content">
@@ -153,7 +155,7 @@
                     <div class="d-grid grid-col-3 grids-content1 bottom-border">
                         <div class="columns copyright-grid align-self">
                             <p class="copy-footer-29">
-                                © 2020 Estate sale. All rights reserved | Designed by <a href="https://w3layouts.com">W3layouts</a>
+                                © @DateTime.Now.Year Estate sale
                             </p>
                         </div>
                     </div>
@@ -165,29 +167,9 @@
             &#10548;
         </button>
         <!-- /move top -->
-    </section>
-    <hr />
-    <footer>
-        <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
     </footer>
+    
+    @Scripts.Render("~/bundles/js")
 
-    <!-- jQuery and Bootstrap JS -->
-    <script src="~/Scripts/js/jquery-3.3.1.min.js"></script>
-
-    <script src="~/Scripts/js/theme-change.js"></script><!-- theme switch js (light and dark)-->
-    <!-- stats number counter-->
-    <script src="~/Scripts/js/jquery.waypoints.min.js"></script>
-    <script src="~/Scripts/js/jquery.countup.js"></script>
-
-    <!-- owlcarousel -->
-    <script src="~/Scripts/js/owl.carousel.js"></script>
-
-    <script src="~/Scripts/js/jquery.magnific-popup.min.js"></script>
-
-    <!-- bootstrap -->
-    <script src="~/Scripts/js/bootstrap.min.js"></script>
-
-    <script src="~/Scripts/js/script.js"></script>
 </body>
-
 </html>

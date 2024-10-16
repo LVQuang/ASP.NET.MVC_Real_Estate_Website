@@ -135,6 +135,8 @@
     <Compile Include="Controllers\DetailController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ListingController.cs" />
+    <Compile Include="Controllers\ProfileController.cs" />
+    <Compile Include="Controllers\SigninController.cs" />
     <Compile Include="DTO\Response\CategoryRender.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -207,6 +209,30 @@
     <Content Include="Content\images\team6.jpg" />
     <Content Include="Content\images\who.jpg" />
     <Content Include="Content\images\who1.jpg" />
+    <Content Include="Content\ProfileContent\css\apexcharts.css" />
+    <Content Include="Content\ProfileContent\css\bootstrap-icons.css" />
+    <Content Include="Content\ProfileContent\css\bootstrap.min.css" />
+    <Content Include="Content\ProfileContent\css\tooplate-mini-finance.css" />
+    <Content Include="Content\ProfileContent\images\credit-card.png" />
+    <Content Include="Content\ProfileContent\images\flag\australia.png" />
+    <Content Include="Content\ProfileContent\images\flag\european-union.png" />
+    <Content Include="Content\ProfileContent\images\flag\singapore.png" />
+    <Content Include="Content\ProfileContent\images\flag\united-kingdom.png" />
+    <Content Include="Content\ProfileContent\images\flag\united-states.png" />
+    <Content Include="Content\ProfileContent\images\medium-shot-happy-man-smiling.jpg" />
+    <Content Include="Content\ProfileContent\images\profile\senior-man-white-sweater-eyeglasses.jpg" />
+    <Content Include="Content\ProfileContent\images\profile\young-beautiful-woman-pink-warm-sweater.jpg" />
+    <Content Include="Content\ProfileContent\images\profile\young-woman-with-round-glasses-yellow-sweater.jpg" />
+    <Content Include="Content\ProfileContent\images\social\search.png" />
+    <Content Include="Content\ProfileContent\images\social\snapchat.png" />
+    <Content Include="Content\ProfileContent\images\social\spotify.png" />
+    <Content Include="Content\ProfileContent\images\social\telegram.png" />
+    <Content Include="Content\ProfileContent\images\social\tiktok.png" />
+    <Content Include="Content\ProfileContent\images\social\youtube.png" />
+    <Content Include="Content\SigninContent\css\font-awesome.css" />
+    <Content Include="Content\SigninContent\css\style.css" />
+    <Content Include="Content\SigninContent\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\SigninContent\images\banner.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -221,6 +247,13 @@
     <Content Include="Content\fonts\fontawesome-webfont.woff" />
     <Content Include="Content\fonts\fontawesome-webfont.woff2" />
     <Content Include="Content\fonts\FontAwesome.otf" />
+    <Content Include="Content\ProfileContent\fonts\bootstrap-icons.woff" />
+    <Content Include="Content\ProfileContent\fonts\bootstrap-icons.woff2" />
+    <Content Include="Content\SigninContent\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\SigninContent\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\SigninContent\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\SigninContent\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\SigninContent\fonts\FontAwesome.otf" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -240,6 +273,11 @@
     <Content Include="Scripts\js\script.js" />
     <Content Include="Scripts\js\theme-change.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\ProfileJS\apexcharts.min.js" />
+    <Content Include="Scripts\ProfileJS\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\ProfileJS\custom.js" />
+    <Content Include="Scripts\ProfileJS\jquery.min.js" />
+    <Content Include="Scripts\ProfileJS\script.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -256,6 +294,12 @@
     <Content Include="Views\Listing\Listing.cshtml" />
     <Content Include="Views\About\About.cshtml" />
     <Content Include="Views\Contact\Contact.cshtml" />
+    <Content Include="Views\Shared\_ProfileLayout.cshtml" />
+    <Content Include="Views\Profile\Overview.cshtml" />
+    <Content Include="Views\Profile\Wallet.cshtml" />
+    <Content Include="Views\Signin\Signin.cshtml" />
+    <Content Include="Views\Signin\SignUp.cshtml" />
+    <Content Include="Views\Shared\_SigninLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

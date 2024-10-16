@@ -1,40 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Projects\\ASP.NET.MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|d:\\projects\\asp.net.mvc_real_estate_website\\mvc_real_estate_website\\mvc_real_estate_website\\views\\shared\\_profilelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\views\\shared\\_profilelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|D:\\Projects\\ASP.NET.MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\mvc_real_estate_website\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|D:\\Projects\\ASP.NET.MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\mvc_real_estate_website\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|d:\\projects\\asp.net.mvc_real_estate_website\\mvc_real_estate_website\\mvc_real_estate_website\\controllers\\signincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\controllers\\signincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|d:\\projects\\asp.net.mvc_real_estate_website\\mvc_real_estate_website\\mvc_real_estate_website\\views\\shared\\_signinlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\views\\shared\\_signinlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|d:\\projects\\asp.net.mvc_real_estate_website\\mvc_real_estate_website\\mvc_real_estate_website\\views\\signin\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\views\\signin\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|d:\\projects\\asp.net.mvc_real_estate_website\\mvc_real_estate_website\\mvc_real_estate_website\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|d:\\projects\\asp.net.mvc_real_estate_website\\mvc_real_estate_website\\mvc_real_estate_website\\views\\signin\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\views\\signin\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -42,115 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SignUp.cshtml",
-              "DocumentMoniker": "D:\\Projects\\ASP.NET.MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Views\\Signin\\SignUp.cshtml",
-              "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\Views\\Signin\\SignUp.cshtml",
-              "ToolTip": "D:\\Projects\\ASP.NET.MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Views\\Signin\\SignUp.cshtml",
-              "RelativeToolTip": "MVC_Real_Estate_Website\\Views\\Signin\\SignUp.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T04:56:18.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RouteConfig.cs",
-              "DocumentMoniker": "D:\\Projects\\ASP.NET.MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\App_Start\\RouteConfig.cs",
-              "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\App_Start\\RouteConfig.cs",
-              "ToolTip": "D:\\Projects\\ASP.NET.MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\App_Start\\RouteConfig.cs",
-              "RelativeToolTip": "MVC_Real_Estate_Website\\App_Start\\RouteConfig.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBQAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T04:51:34.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Signin.cshtml",
-              "DocumentMoniker": "D:\\Projects\\ASP.NET.MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Views\\Signin\\Signin.cshtml",
-              "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\Views\\Signin\\Signin.cshtml",
-              "ToolTip": "D:\\Projects\\ASP.NET.MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Views\\Signin\\Signin.cshtml",
-              "RelativeToolTip": "MVC_Real_Estate_Website\\Views\\Signin\\Signin.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T04:51:08.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_SigninLayout.cshtml",
-              "DocumentMoniker": "D:\\Projects\\ASP.NET.MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Views\\Shared\\_SigninLayout.cshtml",
-              "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\Views\\Shared\\_SigninLayout.cshtml",
-              "ToolTip": "D:\\Projects\\ASP.NET.MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Views\\Shared\\_SigninLayout.cshtml",
-              "RelativeToolTip": "MVC_Real_Estate_Website\\Views\\Shared\\_SigninLayout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T04:50:35.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SigninController.cs",
-              "DocumentMoniker": "D:\\Projects\\ASP.NET.MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Controllers\\SigninController.cs",
-              "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\Controllers\\SigninController.cs",
-              "ToolTip": "D:\\Projects\\ASP.NET.MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Controllers\\SigninController.cs",
-              "RelativeToolTip": "MVC_Real_Estate_Website\\Controllers\\SigninController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T04:47:47.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Projects\\ASP.NET.MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Projects\\ASP.NET.MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MVC_Real_Estate_Website\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAGMAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T04:20:52.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BundleConfig.cs",
-              "DocumentMoniker": "D:\\Projects\\ASP.NET.MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\App_Start\\BundleConfig.cs",
-              "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\App_Start\\BundleConfig.cs",
-              "ToolTip": "D:\\Projects\\ASP.NET.MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\App_Start\\BundleConfig.cs",
-              "RelativeToolTip": "MVC_Real_Estate_Website\\App_Start\\BundleConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T04:19:49.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_ProfileLayout.cshtml",
-              "DocumentMoniker": "D:\\Projects\\ASP.NET.MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Views\\Shared\\_ProfileLayout.cshtml",
-              "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\Views\\Shared\\_ProfileLayout.cshtml",
-              "ToolTip": "D:\\Projects\\ASP.NET.MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Views\\Shared\\_ProfileLayout.cshtml",
-              "RelativeToolTip": "MVC_Real_Estate_Website\\Views\\Shared\\_ProfileLayout.cshtml",
-              "ViewState": "AgIAANsAAAAAAAAAAAAAALoAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T04:19:01.707Z",
-              "EditorCaption": ""
             }
           ]
         }

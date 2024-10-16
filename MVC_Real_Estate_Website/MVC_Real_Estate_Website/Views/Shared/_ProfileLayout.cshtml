@@ -9,13 +9,22 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>_ProfileLayout</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;700&display=swap" rel="stylesheet">
+
+    @Styles.Render("~/bundles/ProfileCSS")
 </head>
 <body>
     <header class="navbar sticky-top flex-md-nowrap">
         <div class="col-md-3 col-lg-3 me-0 px-3 fs-6">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="/home">
                 <i class="bi-box"></i>
-                Mini Finance
+                Estate sale
             </a>
         </div>
 
@@ -94,42 +103,42 @@
                             <div class="row">
                                 <div class="col-lg-4 col-md-4 col-4">
                                     <a class="dropdown-item text-center" href="#">
-                                        <img src="images/social/search.png" class="profile-image img-fluid" alt="">
+                                        <img src="~/Content/ProfileContent/images/social/search.png" class="profile-image img-fluid" alt="">
                                         <span class="d-block">Google</span>
                                     </a>
                                 </div>
 
                                 <div class="col-lg-4 col-md-4 col-4">
                                     <a class="dropdown-item text-center" href="#">
-                                        <img src="images/social/spotify.png" class="profile-image img-fluid" alt="">
+                                        <img src="~/Content/ProfileContent/images/social/spotify.png" class="profile-image img-fluid" alt="">
                                         <span class="d-block">Spotify</span>
                                     </a>
                                 </div>
 
                                 <div class="col-lg-4 col-md-4 col-4">
                                     <a class="dropdown-item text-center" href="#">
-                                        <img src="images/social/telegram.png" class="profile-image img-fluid" alt="">
+                                        <img src="~/Content/ProfileContent/images/social/telegram.png" class="profile-image img-fluid" alt="">
                                         <span class="d-block">Telegram</span>
                                     </a>
                                 </div>
 
                                 <div class="col-lg-4 col-md-4 col-4">
                                     <a class="dropdown-item text-center" href="#">
-                                        <img src="images/social/snapchat.png" class="profile-image img-fluid" alt="">
+                                        <img src="~/Content/ProfileContent/images/social/snapchat.png" class="profile-image img-fluid" alt="">
                                         <span class="d-block">Snapchat</span>
                                     </a>
                                 </div>
 
                                 <div class="col-lg-4 col-md-4 col-4">
                                     <a class="dropdown-item text-center" href="#">
-                                        <img src="images/social/tiktok.png" class="profile-image img-fluid" alt="">
+                                        <img src="~/Content/ProfileContent/images/social/tiktok.png" class="profile-image img-fluid" alt="">
                                         <span class="d-block">Tiktok</span>
                                     </a>
                                 </div>
 
                                 <div class="col-lg-4 col-md-4 col-4">
                                     <a class="dropdown-item text-center" href="#">
-                                        <img src="images/social/youtube.png" class="profile-image img-fluid" alt="">
+                                        <img src="~/Content/ProfileContent/images/social/youtube.png" class="profile-image img-fluid" alt="">
                                         <span class="d-block">Youtube</span>
                                     </a>
                                 </div>
@@ -140,12 +149,12 @@
 
                 <div class="dropdown px-3">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src="images/medium-shot-happy-man-smiling.jpg" class="profile-image img-fluid" alt="">
+                        <img src="~/Content/ProfileContent/images/medium-shot-happy-man-smiling.jpg" class="profile-image img-fluid" alt="">
                     </a>
                     <ul class="dropdown-menu bg-white shadow">
                         <li>
                             <div class="dropdown-menu-profile-thumb d-flex">
-                                <img src="images/medium-shot-happy-man-smiling.jpg" class="profile-image img-fluid me-3" alt="">
+                                <img src="~/Content/ProfileContent/images/medium-shot-happy-man-smiling.jpg" class="profile-image img-fluid me-3" alt="">
 
                                 <div class="d-flex flex-column">
                                     <small>Thomas</small>
@@ -155,21 +164,21 @@
                         </li>
 
                         <li>
-                            <a class="dropdown-item" href="profile.html">
+                            <a class="dropdown-item" href="/profile/profile">
                                 <i class="bi-person me-2"></i>
                                 Profile
                             </a>
                         </li>
 
                         <li>
-                            <a class="dropdown-item" href="setting.html">
+                            <a class="dropdown-item" href="/profile/setting">
                                 <i class="bi-gear me-2"></i>
                                 Settings
                             </a>
                         </li>
 
                         <li>
-                            <a class="dropdown-item" href="help-center.html">
+                            <a class="dropdown-item" href="/profile/helpcenter">
                                 <i class="bi-question-circle me-2"></i>
                                 Help
                             </a>
@@ -191,42 +200,42 @@
         <div class="position-sticky py-4 px-3 sidebar-sticky">
             <ul class="nav flex-column h-100">
                 <li class="nav-item">
-                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "Overview" ? "active" : "")" aria-current="page" href="index.html">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "Overview" ? "active" : "")" aria-current="page" href="/profile/overview">
                         <i class="bi-house-fill me-2"></i>
                         Overview
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="wallet.html">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "Wallet" ? "active" : "")" href="/profile/wallet">
                         <i class="bi-wallet me-2"></i>
                         My Wallet
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="profile.html">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "Profile" ? "active" : "")" href="/profile/profile">
                         <i class="bi-person me-2"></i>
                         Profile
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="setting.html">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "Settings" ? "active" : "")" href="/profile/settings">
                         <i class="bi-gear me-2"></i>
                         Settings
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="help-center.html">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "HelpCenter" ? "active" : "")" href="/profile/helpcenter">
                         <i class="bi-question-circle me-2"></i>
                         Help Center
                     </a>
                 </li>
 
                 <li class="nav-item featured-box mt-lg-5 mt-4 mb-4">
-                    <img src="images/credit-card.png" class="img-fluid" alt="">
+                    <img src="~/Content/ProfileContent/images/credit-card.png" class="img-fluid" alt="">
 
                     <a class="btn custom-btn" href="#">Upgrade</a>
                 </li>
@@ -245,5 +254,7 @@
         @RenderBody()
     </div>
 
+    <script src="~/Scripts/ProfileJS/bootstrap.bundle.min.js"></script>
+    @Scripts.Render("~/bundles/ProfileJS")
 </body>
 </html>

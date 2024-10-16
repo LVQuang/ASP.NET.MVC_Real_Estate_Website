@@ -25,7 +25,7 @@ namespace Real_Estate_Website.Controllers
             return View();
         }
 
-        public ActionResult Setting()
+        public ActionResult Settings()
         {
             return View();
         }

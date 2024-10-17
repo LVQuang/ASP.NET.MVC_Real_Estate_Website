@@ -12,5 +12,15 @@ namespace BaiTapTuan01.Controllers
             ViewBag.Categories = categories;
             return View();
         }
+
+        public ActionResult getNewEstates()
+        {
+            return PartialView();
+        }
+
+        public ActionResult getPopularLocations()
+        {
+            return PartialView();
+        }
     }
 }

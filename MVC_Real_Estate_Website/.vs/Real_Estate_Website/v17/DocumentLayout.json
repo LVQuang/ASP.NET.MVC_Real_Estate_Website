@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|c:\\users\\ql776\\documents\\study file\\code\\aspnet\\tdtu\\mvc_real_estate_website\\mvc_real_estate_website\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|c:\\users\\ql776\\documents\\study file\\code\\aspnet\\tdtu\\mvc_real_estate_website\\mvc_real_estate_website\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|c:\\users\\ql776\\documents\\study file\\code\\aspnet\\tdtu\\mvc_real_estate_website\\mvc_real_estate_website\\dto\\request\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\dto\\request\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|c:\\users\\ql776\\documents\\study file\\code\\aspnet\\tdtu\\mvc_real_estate_website\\mvc_real_estate_website\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\mvc_real_estate_website\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -31,6 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MVC_Real_Estate_Website\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T09:20:37.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVC_Real_Estate_Website\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T09:19:47.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Register.cs",
               "DocumentMoniker": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\DTO\\Request\\Register.cs",
               "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\DTO\\Request\\Register.cs",
@@ -43,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Startup.cs",
               "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\Startup.cs",
@@ -51,8 +85,7 @@
               "RelativeToolTip": "MVC_Real_Estate_Website\\Startup.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAywEMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T08:58:46.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T08:58:46.132Z"
             }
           ]
         }

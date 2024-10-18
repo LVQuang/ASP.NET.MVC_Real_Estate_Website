@@ -28,9 +28,18 @@
     <!--header-->
     <div class="header-w3l">
         <div class="child-div">
-            <a class="" href="@(ViewContext.RouteData.Values["action"].ToString() == "Signin" ? "/signup" : "/signin")">
-                @(ViewContext.RouteData.Values["action"].ToString() == "Signin" ? "Sign Up" : "Sign In")
-            </a>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <div style="color: red; font-weight: bold">
+                    Hello @User.Identity.Name
+                </div>
+            }
+            else
+            {
+                <a class="" href="@(ViewContext.RouteData.Values["action"].ToString() == "Signin" ? "/register" : "/signin")">
+                    @(ViewContext.RouteData.Values["action"].ToString() == "Signin" ? "Register" : "Sign In")
+                </a>
+            }
             <a class="" href="home">Home</a>
         </div>
         <h1>ESTATE SALE</h1>

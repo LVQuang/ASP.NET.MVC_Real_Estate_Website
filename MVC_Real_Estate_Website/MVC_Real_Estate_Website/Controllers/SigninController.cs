@@ -1,8 +1,11 @@
-﻿using System;
+﻿using Real_Estate_Website.DTO.Request;
+using Real_Estate_Website.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+
 
 namespace Real_Estate_Website.Controllers
 {
@@ -14,10 +17,24 @@ namespace Real_Estate_Website.Controllers
             return View();
         }
 
-        // GET: SignUp
-        public ActionResult SignUp()
+        // GET: Register
+        public ActionResult Register()
         {
             return View();
+        }
+
+        // POST: Register
+        [HttpPost]
+        public ActionResult Register(Register requestRegister)
+        {
+            if (!ModelState.IsValid)
+            {
+                ModelState.AddModelError("New Error", "Invalid Data");
+                return View();
+            }
+            AuthenticationService authenticationService = new AuthenticationService();
+            authenticationService.Register(requestRegister);
+            return RedirectToAction("Index", "Home");
         }
     }
 }

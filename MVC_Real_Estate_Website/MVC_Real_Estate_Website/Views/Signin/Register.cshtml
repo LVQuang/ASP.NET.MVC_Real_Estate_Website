@@ -1,0 +1,64 @@
+﻿@model Real_Estate_Website.DTO.Request.Register
+
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_SigninLayout.cshtml";
+}
+
+<main>
+    <!--main-->
+    <div class="main-content-agile">
+        <div class="sub-main-w3">
+            <h2>Register</h2>
+            <h6>Swiftly register with</h6>
+            <div class="navbar-right social-icons">
+                <a href="#" class="one-w3ls"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+                <a href="#" class="two-w3ls"><i class="fa fa-google-plus" aria-hidden="true"></i>Google+</a>
+                <div class="clear"></div>
+            </div>
+            @using (Html.BeginForm("Register", "Signin", FormMethod.Post))
+            {
+                <div class="icon">
+                    @Html.TextBoxFor(data => data.UserName, new { type = "text", placeholder = "Username", required = "required" })
+                    @Html.ValidationMessageFor(data => data.UserName)
+                </div>
+
+                <div class="icon">
+                    @Html.TextBoxFor(data => data.Email, new { type = "email", placeholder = "Email", required = "required" })
+                    @Html.ValidationMessageFor(data => data.Email)
+                </div>
+
+                <div class="icon">
+                    @Html.TextBoxFor(data => data.Address, new { type = "tel", placeholder = "Phone Number", required = "required" })
+                </div>
+
+                <div class="icon">
+                    @Html.TextBoxFor(data => data.Address, new { type = "text", placeholder = "Address", required = "required" })
+                </div>
+
+                <div class="icon">
+                    @Html.TextBoxFor(data => data.City, new { type = "text", placeholder = "City", required = "required" })
+                </div>
+
+                <div class="icon">
+                    @Html.TextBoxFor(data => data.DateOfBirth, new { type = "date", placeholder = "Username", required = "required" })
+                </div>
+
+                <div class="icon">
+                    @Html.TextBoxFor(data => data.Password, new { type = "password", placeholder = "Password", required = "required" })
+                    @Html.ValidationMessageFor(data => data.Password)
+                </div>
+
+                <div class="icon">
+                    @Html.TextBoxFor(data => data.ConfirmPassword, new { type = "password", placeholder = "Confirm Password", required = "required" })
+                    @Html.ValidationMessageFor(data => data.ConfirmPassword)
+                </div>
+
+                <div class="clear"></div>
+                <input type="submit" value="Register">
+            }
+
+        </div>
+    </div>
+    <!--//main-->
+</main>

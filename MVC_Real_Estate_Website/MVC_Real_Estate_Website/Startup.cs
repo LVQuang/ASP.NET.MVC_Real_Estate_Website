@@ -25,14 +25,14 @@ namespace Real_Estate_Website
         private void InitRoleAndUser()
         {
             var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(new IdentityDB()));
-            var userManager = new AppUserManger(new AppUserStore(new IdentityDB()));
+            var userManager = new AppUserManager(new AppUserStore(new IdentityDB()));
 
             InitAdmin(roleManager, userManager);
             InitCustomerRole(roleManager, userManager);
         }
 
         private void InitAdmin(
-            RoleManager<IdentityRole> roleManager, AppUserManger userManger)
+            RoleManager<IdentityRole> roleManager, AppUserManager userManger)
         {
             if(!roleManager.RoleExists("Admin"))
             {
@@ -56,7 +56,7 @@ namespace Real_Estate_Website
         }
 
         private void InitCustomerRole(
-            RoleManager<IdentityRole> roleManager, AppUserManger userManger)
+            RoleManager<IdentityRole> roleManager, AppUserManager userManger)
         {
             if (!roleManager.RoleExists("Customer"))
             {

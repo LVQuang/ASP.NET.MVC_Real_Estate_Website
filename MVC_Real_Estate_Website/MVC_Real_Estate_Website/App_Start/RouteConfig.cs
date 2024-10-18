@@ -40,9 +40,9 @@ namespace BaiTapTuan01
             );
 
             routes.MapRoute(
-                name: "Sign Up",
-                url: "signup",
-                defaults: new { controller = "Signin", action = "SignUp" }
+                name: "Register",
+                url: "Register",
+                defaults: new { controller = "Signin", action = "Register" }
             );
 
             routes.MapRoute(

@@ -175,9 +175,10 @@
     </Compile>
     <Compile Include="IdentityMigration\Configuration.cs" />
     <Compile Include="Identity\AppUser.cs" />
-    <Compile Include="Identity\AppUserManger.cs" />
+    <Compile Include="Identity\AppUserManager.cs" />
     <Compile Include="Identity\AppUserStore.cs" />
     <Compile Include="Identity\IdentityDB.cs" />
+    <Compile Include="Mapper\UserMapper.cs" />
     <Compile Include="Migrations\202409201057174_InitData.cs" />
     <Compile Include="Migrations\202409201057174_InitData.Designer.cs">
       <DependentUpon>202409201057174_InitData.cs</DependentUpon>
@@ -191,6 +192,7 @@
     <Compile Include="Models\MyDB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\CategoryRepository.cs" />
+    <Compile Include="Services\AuthenticationService.cs" />
     <Compile Include="Services\CategoryService.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -336,13 +338,13 @@
     <Content Include="Views\Profile\Overview.cshtml" />
     <Content Include="Views\Profile\Wallet.cshtml" />
     <Content Include="Views\Signin\Signin.cshtml" />
-    <Content Include="Views\Signin\SignUp.cshtml" />
     <Content Include="Views\Shared\_SigninLayout.cshtml" />
     <Content Include="Views\Profile\Profile.cshtml" />
     <Content Include="Views\Profile\Settings.cshtml" />
     <Content Include="Views\Profile\HelpCenter.cshtml" />
     <Content Include="Views\Home\getNewEstates.cshtml" />
     <Content Include="Views\Home\getPopularLocations.cshtml" />
+    <Content Include="Views\Signin\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

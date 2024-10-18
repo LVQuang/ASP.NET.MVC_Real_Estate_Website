@@ -1,8 +1,7 @@
 ﻿using Real_Estate_Website.DTO.Request;
 using Real_Estate_Website.Identity;
-using System.Web.Helpers;
 using Microsoft.AspNet.Identity;
-using Microsoft.Owin.Security   ;
+using Microsoft.Owin.Security;
 using Real_Estate_Website.Mapper;
 using System.Web;
 
@@ -29,6 +28,22 @@ namespace Real_Estate_Website.Services
                 var userIdentity = userManager.CreateIdentity(user, DefaultAuthenticationTypes.ApplicationCookie);
                 authenticationManager.SignIn(new AuthenticationProperties(), userIdentity);
             }
+        }
+
+        public void LogIn(LogIn loginRequest)
+        {
+            var user = userManager.Find(loginRequest.UserName, loginRequest.Password);
+            if (user != null)
+            {
+                var authenticationManager = HttpContext.Current.GetOwinContext().Authentication;
+                var userIdentity = userManager.CreateIdentity(user, DefaultAuthenticationTypes.ApplicationCookie);
+                authenticationManager.SignIn(new AuthenticationProperties(), userIdentity);
+            }
+        }
+        public void LogOut()
+        {
+            var authenticationManager = HttpContext.Current.GetOwinContext().Authentication;
+            authenticationManager.SignOut();
         }
     }
 }

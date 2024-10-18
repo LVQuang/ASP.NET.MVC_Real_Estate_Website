@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|c:\\users\\ql776\\documents\\study file\\code\\aspnet\\tdtu\\mvc_real_estate_website\\mvc_real_estate_website\\views\\signin\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\views\\signin\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|c:\\users\\ql776\\documents\\study file\\code\\aspnet\\tdtu\\mvc_real_estate_website\\mvc_real_estate_website\\controllers\\signincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\controllers\\signincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|c:\\users\\ql776\\documents\\study file\\code\\aspnet\\tdtu\\mvc_real_estate_website\\mvc_real_estate_website\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,45 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Views\\Signin\\Register.cshtml",
-              "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\Views\\Signin\\Register.cshtml",
-              "ToolTip": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Views\\Signin\\Register.cshtml",
-              "RelativeToolTip": "MVC_Real_Estate_Website\\Views\\Signin\\Register.cshtml",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAmwBEAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-18T01:18:55.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RouteConfig.cs",
-              "DocumentMoniker": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\App_Start\\RouteConfig.cs",
-              "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\App_Start\\RouteConfig.cs",
-              "ToolTip": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\App_Start\\RouteConfig.cs",
-              "RelativeToolTip": "MVC_Real_Estate_Website\\App_Start\\RouteConfig.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAwwFsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T01:18:26.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SigninController.cs",
-              "DocumentMoniker": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Controllers\\SigninController.cs",
-              "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\Controllers\\SigninController.cs",
-              "ToolTip": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Controllers\\SigninController.cs",
-              "RelativeToolTip": "MVC_Real_Estate_Website\\Controllers\\SigninController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAgwBsAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T00:30:40.506Z",
-              "EditorCaption": ""
             }
           ]
         }

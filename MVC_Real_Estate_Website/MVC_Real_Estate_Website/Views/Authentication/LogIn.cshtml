@@ -1,0 +1,36 @@
+﻿@model Real_Estate_Website.DTO.Request.LogIn
+
+@{
+    ViewBag.Title = "LogIn";
+    Layout = "~/Views/Shared/_AuthenticationLayout.cshtml";
+}
+
+<main>
+    <!--main-->
+    <div class="main-content-agile">
+        <div class="sub-main-w3">
+            <h2>Login</h2>
+            <div class="navbar-right social-icons">
+                <a href="#" class="one-w3ls"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+                <a href="#" class="two-w3ls"><i class="fa fa-google-plus" aria-hidden="true"></i>Google+</a>
+                <div class="clear"></div>
+            </div>
+            @using (Html.BeginForm("Login", "Authentication", FormMethod.Post))
+            {
+                <div class="icon">
+                    @Html.TextBoxFor(data => data.UserName, new { type = "text", placeholder = "Username", required = "required" })
+                    @Html.ValidationMessageFor(data => data.UserName)
+                </div>
+                <div class="icon">
+                    @Html.TextBoxFor(data => data.Password, new { type = "password", placeholder = "Password", required = "required" })
+                    @Html.ValidationMessageFor(data => data.Password)
+                </div>
+                <div class="clear"></div>
+                <input type="submit" value="LogIn">
+            }
+            <h4 class="text-warning">@Html.ValidationSummary()</h4>
+        </div>
+    </div>
+    <!--//main-->
+</main>
+

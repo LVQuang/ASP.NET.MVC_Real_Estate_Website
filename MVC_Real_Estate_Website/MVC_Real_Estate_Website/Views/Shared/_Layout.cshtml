@@ -92,14 +92,32 @@
                     </nav>
                 </div>
                 <!-- //toggle switch for light and dark theme -->
-
-                <div class="mr-0">
-                    <a href="/signin">Signin</a>
-                </div>
-                <div class="mr-0">
-                    <a href="/profile/overview">Profile</a>
-                </div>
-
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav ml-lg-5 mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/profile/overview">@User.Identity.Name</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/logout">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                }
+                else
+                {
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav ml-lg-5 mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/login">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/register">Register</a>
+                            </li>
+                        </ul>
+                    </div>
+                }
             </nav>
         </div>
     </header>

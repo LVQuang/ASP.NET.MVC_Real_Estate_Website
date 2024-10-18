@@ -161,10 +161,11 @@
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\DetailController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="DTO\Request\LogIn.cs" />
     <Compile Include="DTO\Request\Register.cs" />
     <Compile Include="Controllers\ListingController.cs" />
     <Compile Include="Controllers\ProfileController.cs" />
-    <Compile Include="Controllers\SigninController.cs" />
+    <Compile Include="Controllers\AuthenticationController.cs" />
     <Compile Include="DTO\Response\CategoryRender.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -337,14 +338,14 @@
     <Content Include="Views\Shared\_ProfileLayout.cshtml" />
     <Content Include="Views\Profile\Overview.cshtml" />
     <Content Include="Views\Profile\Wallet.cshtml" />
-    <Content Include="Views\Signin\Signin.cshtml" />
-    <Content Include="Views\Shared\_SigninLayout.cshtml" />
+    <Content Include="Views\Shared\_AuthenticationLayout.cshtml" />
     <Content Include="Views\Profile\Profile.cshtml" />
     <Content Include="Views\Profile\Settings.cshtml" />
     <Content Include="Views\Profile\HelpCenter.cshtml" />
     <Content Include="Views\Home\getNewEstates.cshtml" />
     <Content Include="Views\Home\getPopularLocations.cshtml" />
-    <Content Include="Views\Signin\Register.cshtml" />
+    <Content Include="Views\Authentication\Register.cshtml" />
+    <Content Include="Views\Authentication\LogIn.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

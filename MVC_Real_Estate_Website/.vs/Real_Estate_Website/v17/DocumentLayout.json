@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|c:\\users\\ql776\\documents\\study file\\code\\aspnet\\tdtu\\mvc_real_estate_website\\mvc_real_estate_website\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|c:\\users\\ql776\\documents\\study file\\code\\aspnet\\tdtu\\mvc_real_estate_website\\mvc_real_estate_website\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|c:\\users\\ql776\\documents\\study file\\code\\aspnet\\tdtu\\mvc_real_estate_website\\mvc_real_estate_website\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|c:\\users\\ql776\\documents\\study file\\code\\aspnet\\tdtu\\mvc_real_estate_website\\mvc_real_estate_website\\areas\\admin\\views\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\areas\\admin\\views\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|c:\\users\\ql776\\documents\\study file\\code\\aspnet\\tdtu\\mvc_real_estate_website\\mvc_real_estate_website\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|c:\\users\\ql776\\documents\\study file\\code\\aspnet\\tdtu\\mvc_real_estate_website\\mvc_real_estate_website\\views\\home\\getnewestates.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\views\\home\\getnewestates.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|c:\\users\\ql776\\documents\\study file\\code\\aspnet\\tdtu\\mvc_real_estate_website\\mvc_real_estate_website\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|c:\\users\\ql776\\documents\\study file\\code\\aspnet\\tdtu\\mvc_real_estate_website\\mvc_real_estate_website\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,54 +42,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "MVC_Real_Estate_Website\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
-              "ViewState": "AQIAAPQAAAAAAAAAAAAjwP0AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T00:55:12.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Areas\\Admin\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\Areas\\Admin\\Controllers\\AdminController.cs",
               "ToolTip": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Areas\\Admin\\Controllers\\AdminController.cs",
               "RelativeToolTip": "MVC_Real_Estate_Website\\Areas\\Admin\\Controllers\\AdminController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T00:54:18.966Z",
+              "WhenOpened": "2024-10-19T01:36:13.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "getNewEstates.cshtml",
-              "DocumentMoniker": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Views\\Home\\getNewEstates.cshtml",
-              "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\Views\\Home\\getNewEstates.cshtml",
-              "ToolTip": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Views\\Home\\getNewEstates.cshtml",
-              "RelativeToolTip": "MVC_Real_Estate_Website\\Views\\Home\\getNewEstates.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T00:46:46.019Z",
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Startup.cs",
+              "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\Startup.cs",
+              "ToolTip": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Startup.cs",
+              "RelativeToolTip": "MVC_Real_Estate_Website\\Startup.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T01:33:27.554Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Areas\\Admin\\Views\\index.cshtml",
-              "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\Areas\\Admin\\Views\\index.cshtml",
-              "ToolTip": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Areas\\Admin\\Views\\index.cshtml",
-              "RelativeToolTip": "MVC_Real_Estate_Website\\Areas\\Admin\\Views\\index.cshtml",
-              "ViewState": "AQIAADoGAAAAAAAAAAAQwFcGAAAAAAAA",
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\Services\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "MVC_Real_Estate_Website\\Services\\AuthenticationService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAIwCkAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T01:31:05.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "MVC_Real_Estate_Website\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAwC8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T01:30:22.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "MVC_Real_Estate_Website\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAOAAAAAAAAAAAAAQwP0AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T00:33:11.851Z",
+              "WhenOpened": "2024-10-19T00:55:12.724Z",
               "EditorCaption": ""
             }
           ]

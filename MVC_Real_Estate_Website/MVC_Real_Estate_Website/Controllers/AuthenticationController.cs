@@ -47,7 +47,10 @@ namespace Real_Estate_Website.Controllers
                 ModelState.AddModelError("New Error", "Invalid Data");
                 return View();
             }
-            authenticationService.LogIn(loginRequest);
+            if (authenticationService.LogIn(loginRequest).Equals("Admin"))
+            {
+                return RedirectToAction("Index", "Admin", new { area = "Admin"});
+            };
             return RedirectToAction("Index", "Home");
         }
 

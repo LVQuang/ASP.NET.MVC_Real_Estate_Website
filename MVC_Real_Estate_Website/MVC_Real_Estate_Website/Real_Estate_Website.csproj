@@ -214,7 +214,6 @@
     <None Include="Areas\Admin\Views\components\typography.cshtml" />
     <None Include="Areas\Admin\Views\forms\forms.cshtml" />
     <None Include="Areas\Admin\Views\icon-menu.cshtml" />
-    <None Include="Areas\Admin\Views\index.cshtml" />
     <None Include="Areas\Admin\Views\maps\googlemaps.cshtml" />
     <Content Include="Areas\Admin\Views\maps\jsvectormap.html" />
     <None Include="Areas\Admin\Views\sidebar-style-2.cshtml" />

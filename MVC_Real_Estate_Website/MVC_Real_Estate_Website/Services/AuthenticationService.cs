@@ -30,7 +30,7 @@ namespace Real_Estate_Website.Services
             }
         }
 
-        public void LogIn(LogIn loginRequest)
+        public string LogIn(LogIn loginRequest)
         {
             var user = userManager.Find(loginRequest.UserName, loginRequest.Password);
             if (user != null)
@@ -39,6 +39,7 @@ namespace Real_Estate_Website.Services
                 var userIdentity = userManager.CreateIdentity(user, DefaultAuthenticationTypes.ApplicationCookie);
                 authenticationManager.SignIn(new AuthenticationProperties(), userIdentity);
             }
+            return userManager.IsInRole(user.Id, "Admin") ? "Admin" : "Customer";
         }
         public void LogOut()
         {

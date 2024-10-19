@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects\\ASP.NET.MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\",
+  "WorkspaceRootPath": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|d:\\projects\\asp.net.mvc_real_estate_website\\mvc_real_estate_website\\mvc_real_estate_website\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|c:\\users\\ql776\\documents\\study file\\code\\aspnet\\tdtu\\mvc_real_estate_website\\mvc_real_estate_website\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|c:\\users\\ql776\\documents\\study file\\code\\aspnet\\tdtu\\mvc_real_estate_website\\mvc_real_estate_website\\filters\\authorizationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\filters\\authorizationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|c:\\users\\ql776\\documents\\study file\\code\\aspnet\\tdtu\\mvc_real_estate_website\\mvc_real_estate_website\\filters\\authenticationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E7D8FC6-13F6-41EC-97B1-12D6D5F00D4B}|MVC_Real_Estate_Website\\Real_Estate_Website.csproj|solutionrelative:mvc_real_estate_website\\filters\\authenticationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +22,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Projects\\ASP.NET.MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Projects\\ASP.NET.MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "MVC_Real_Estate_Website\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABEAAAAAAAAAA==",
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "MVC_Real_Estate_Website\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:59:59.637Z",
+              "WhenOpened": "2024-10-19T02:40:29.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthenticationFilter.cs",
+              "DocumentMoniker": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Filters\\AuthenticationFilter.cs",
+              "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\Filters\\AuthenticationFilter.cs",
+              "ToolTip": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Filters\\AuthenticationFilter.cs",
+              "RelativeToolTip": "MVC_Real_Estate_Website\\Filters\\AuthenticationFilter.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAsAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T02:38:07.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthorizationFilter.cs",
+              "DocumentMoniker": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Filters\\AuthorizationFilter.cs",
+              "RelativeDocumentMoniker": "MVC_Real_Estate_Website\\Filters\\AuthorizationFilter.cs",
+              "ToolTip": "C:\\Users\\ql776\\Documents\\Study File\\Code\\ASPNET\\TDTU\\MVC_Real_Estate_Website\\MVC_Real_Estate_Website\\Filters\\AuthorizationFilter.cs",
+              "RelativeToolTip": "MVC_Real_Estate_Website\\Filters\\AuthorizationFilter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T02:37:49.149Z",
               "EditorCaption": ""
             }
           ]

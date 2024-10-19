@@ -77,17 +77,19 @@ body {
     text-transform: capitalize;
     text-shadow: 1px 1px 1px #000;
 }
-.sub-main-w3 input[type="email"], .sub-main-w3 input[type="password"] {
-    outline: none;
-    font-size: 14px;
-    border: none;
-    box-shadow: 2px 2px 21px rgba(0, 0, 0, 0.29);
-    background: rgba(255, 255, 255, 0.21);
-    width: 95.9%;
-    color: #fff;
-    padding: 10px;
-    letter-spacing: 1px;
-    font-family: 'Roboto', sans-serif;
+.sub-main-w3 input[type="email"], .sub-main-w3 input[type="password"], .sub-main-w3 input[type="text"], .sub-main-w3 input[type="date"], .sub-main-w3 input[type="tel"] {
+	outline: none;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 10px;
+	border: none;
+	box-shadow: 2px 2px 21px rgba(0, 0, 0, 0.29);
+	background: rgba(255, 255, 255, 0.21);
+	width: 95.9%;
+	color: #fff;
+	padding: 10px;
+	letter-spacing: 1px;
+	font-family: 'Roboto', sans-serif;
 }
 .sub-main-w3 input[type="submit"] {
 	color: #fff;

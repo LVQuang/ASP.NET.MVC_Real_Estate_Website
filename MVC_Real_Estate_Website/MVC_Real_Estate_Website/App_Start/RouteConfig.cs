@@ -10,6 +10,24 @@ namespace BaiTapTuan01
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+                name: "Register",
+                url: "register",
+                defaults: new { controller = "Authentication", action = "Register" }
+            );
+
+            routes.MapRoute(
+                name: "Log In",
+                url: "login",
+                defaults: new { controller = "Authentication", action = "LogIn" }
+            );
+
+            routes.MapRoute(
+                name: "Log Out",
+                url: "logout",
+                defaults: new { controller = "Authentication", action = "LogOut" }
+            );
+
+            routes.MapRoute(
                 name: "Help Center",
                 url: "profile/help-center",
                 defaults: new { controller = "Profile", action = "HelpCenter" }
@@ -37,18 +55,6 @@ namespace BaiTapTuan01
                 name: "Overview",
                 url: "profile/overview",
                 defaults: new { controller = "Profile", action = "Overview" }
-            );
-
-            routes.MapRoute(
-                name: "Sign Up",
-                url: "signup",
-                defaults: new { controller = "Signin", action = "SignUp" }
-            );
-
-            routes.MapRoute(
-                name: "Sign In",
-                url: "signin",
-                defaults: new { controller = "Signin", action = "Signin" }
             );
 
             routes.MapRoute(

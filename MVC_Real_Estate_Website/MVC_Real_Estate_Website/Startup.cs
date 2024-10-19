@@ -16,7 +16,7 @@ namespace Real_Estate_Website
             app.UseCookieAuthentication(new CookieAuthenticationOptions()
             {
                 AuthenticationType = DefaultAuthenticationTypes.ApplicationCookie,
-                LoginPath = new PathString("/Account/Login")
+                LoginPath = new PathString("/login")
             });
             this.InitRoleAndUser();
 
